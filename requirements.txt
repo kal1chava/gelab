@@ -3,4 +3,8 @@ Flask-SQLAlchemy
 Flask-WTF
 Flask-Login
 Flask-Migrate
+Flask-Bcrypt
+WTForms
+SQLAlchemy
 gunicorn
+email-validator: Validate Email Addresses
