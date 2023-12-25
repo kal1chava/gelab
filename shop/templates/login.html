@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+{% block title %}Login{% endblock %}
+
+{% block content %}
+    <div class="container min-vh-100 text-center d-flex justify-content-center align-items-center">
+    <form method="post">
+        <div class="mb-5">
+            <h1 style="color: white;"> Login </h1>
+        </div>
+        {{ form.hidden_tag() }}
+
+        {{ form.username(class="form-control mb-3", placeholder= "Username") }}
+        {{ form.password(class="form-control mb-3", placeholder = "Password") }}
+
+        {{ form.submit(class='btn btn-primary') }}
+    </form>
+</div>
+
+{% endblock %}
+
