@@ -7,4 +7,3 @@ Flask-Bcrypt
 WTForms
 SQLAlchemy
 gunicorn
-email-validator: Validate Email Addresses
